@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:220px;
+    height:110px;
+    background:#ffd95f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#checkout-btn{
+    padding:12px 22px;
+    border:none;
+    background:#d9d9d9;
+    font-size:9px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+#checkout-btn:hover{
+    background:#c8c8c8;
+}
